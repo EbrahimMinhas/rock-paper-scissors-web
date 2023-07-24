@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Rock_Paper_Scissors.WebApi</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rock-Paper-Scissor.Models\Rock-Paper-Scissor.Models.csproj" />
+    <ProjectReference Include="..\Rock-Paper-Scissors.Service\Rock-Paper-Scissors.Service.csproj" />
+  </ItemGroup>
+
+</Project>
