@@ -1,7 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
 import axios from 'axios';
-import Score from '../score/score';
 import { PlayerChoices, PlayerType, GameResult, GameSettings } from "../../types";
 import './game.scss';
 
@@ -54,6 +53,14 @@ const Game = () => {
         {playerType === PlayerType.computer && <button onClick={() => handleChoiceClick({ PlayerType: playerType })}>Get Result</button>}
       </div>
       {gameResult && <Score result={gameResult} />}
+    </div>
+  );
+};
+
+const Score = ({ result } : any) => {
+  return (
+    <div>
+      <h2>Result: {result}</h2>
     </div>
   );
 };
