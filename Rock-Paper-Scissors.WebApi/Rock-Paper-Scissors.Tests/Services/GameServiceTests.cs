@@ -9,7 +9,7 @@ namespace Rock_Paper_Scissors.Tests.Services
     [TestClass]
     public class GameServiceTests
     {
-        private GameService _service; //TODO use MOQ
+        private GameService _service;
 
         [TestInitialize]
         public void initialize()
@@ -32,6 +32,8 @@ namespace Rock_Paper_Scissors.Tests.Services
 
             // assert
             Assert.IsNotNull(result);
+            Assert.IsTrue(result.IsSuccess);
+
         }
     }
 }
