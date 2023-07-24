@@ -22,7 +22,6 @@ namespace Rock_Paper_Scissors.WebApi.Controllers
             try
             {
                 GameResult gameResult = _gameService.FetchGameResult(userChoice);
-
                 return Ok(new { result = gameResult });
             } catch
             {

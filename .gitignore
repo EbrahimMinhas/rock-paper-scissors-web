@@ -3,3 +3,13 @@
 ################################################################################
 
 /Rock-Paper-Scissors.WebApi/.vs
+/Rock-Paper-Scissors.WebApi/Rock-Paper-Scissor.Models/bin/Debug/net6.0
+/Rock-Paper-Scissors.WebApi/Rock-Paper-Scissor.Models/obj
+/Rock-Paper-Scissors.WebApi/Rock-Paper-Scissors.Service/bin/Debug/net6.0
+/Rock-Paper-Scissors.WebApi/Rock-Paper-Scissors.Service/obj
+/Rock-Paper-Scissors.WebApi/Rock-Paper-Scissors.Tests/bin/Debug/net6.0
+/Rock-Paper-Scissors.WebApi/Rock-Paper-Scissors.Tests/obj/Debug/net6.0
+/Rock-Paper-Scissors.WebApi/Rock-Paper-Scissors.Tests/obj
+/Rock-Paper-Scissors.WebApi/Rock-Paper-Scissors.WebApi/bin/Debug/net6.0
+/Rock-Paper-Scissors.WebApi/Rock-Paper-Scissors.WebApi/obj
+/rock-paper-scissors-ui/node_modules

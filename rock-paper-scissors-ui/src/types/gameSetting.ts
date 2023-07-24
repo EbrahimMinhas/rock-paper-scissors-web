@@ -1,11 +1,13 @@
 import { PlayerType } from "./playerTypes"
 
 export interface GameSettings {
-  Choice?: string,
-  PlayerType: PlayerType
+  Choice?: string;
+  PlayerType: PlayerType;
 }
 
 
 export interface GameResult {
-  winner: PlayerType
+  winner: PlayerType;
+  result: string;
+  isSuccess: boolean;
 }
